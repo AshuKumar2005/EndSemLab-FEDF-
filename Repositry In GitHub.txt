@@ -1,0 +1,32 @@
+1. Create a Remote Repository on GitHub
+
+Open GitHub and log in.
+
+Click New Repository.
+
+Enter a repository name (example: student-feedback-form).
+
+Keep Repository empty (no README).
+
+Click Create Repository.
+
+2. Connect Local Project to GitHub
+
+git init
+git add .
+git commit -m "Initial project commit"
+git remote add origin "GitHub Repositry link"
+
+3. Push All Local Commits to Remote Repository
+git push -u origin master
+
+
+(or)
+
+git push -u origin main
+
+4. Clone the Repository to Verify Synchronization
+
+Create a new folder anywhere and run:
+
+git clone "GitHub Repositry link"
